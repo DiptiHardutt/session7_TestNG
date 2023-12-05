@@ -53,6 +53,7 @@ public class Practice {
 	By GROUP_FIELD = By.id("customer_group");
 	By SAVE_FIELD = By.id("save_btn");
 	By LIST_CUSTOMER_FIELD = By.cssSelector("a[title='List Customers']");
+	By CUSOMER_LIST_HEADER_FIELD = By.xpath("//strong[contains(text(),'Customer List')]");
 	By SEARCH_FIELD = By.name("globalsearch");
 
 	// Test Data / Mock Data
@@ -146,6 +147,7 @@ public class Practice {
 		selectDropdown(driver.findElement(GROUP_FIELD), group);
 		driver.findElement(SAVE_FIELD).click();
 		driver.findElement(LIST_CUSTOMER_FIELD).click();
+		Assert.assertTrue(driver.findElement(CUSOMER_LIST_HEADER_FIELD).isDisplayed(), "List Customer page not displayed");
 		driver.findElement(SEARCH_FIELD).sendKeys(fullName);
 		Actions actions = new Actions(driver);
 		actions.sendKeys(Keys.ENTER).build().perform();
