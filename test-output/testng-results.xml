@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-04T17:54:37 CST" name="Default suite" finished-at="2023-12-04T17:55:34 CST" duration-ms="57113">
+    <groups>
+    </groups>
+    <test started-at="2023-12-04T17:54:37 CST" name="Default test" finished-at="2023-12-04T17:55:34 CST" duration-ms="57113">
+      <class name="session7_TestNG.Practice">
+        <test-method is-config="true" signature="readConfiguration()[pri:0, instance:session7_TestNG.Practice@2d710f1a]" started-at="2023-12-04T17:54:37 CST" name="readConfiguration" finished-at="2023-12-04T17:54:37 CST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfiguration -->
+        <test-method is-config="true" signature="init()[pri:0, instance:session7_TestNG.Practice@2d710f1a]" started-at="2023-12-04T17:54:37 CST" name="init" finished-at="2023-12-04T17:54:40 CST" duration-ms="3031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="addCustomer()[pri:0, instance:session7_TestNG.Practice@2d710f1a]" started-at="2023-12-04T17:54:40 CST" name="addCustomer" finished-at="2023-12-04T17:55:34 CST" duration-ms="54042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+      </class> <!-- session7_TestNG.Practice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
